@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import NavTabs from './components/InfoPanel';
+import AppBarCovid19 from './components/AppBar'
 
 function App() {
   return (
     <div className="App">
-      <h1>Covid-19</h1>
+      <AppBarCovid19 />
+      <NavTabs />
     </div>
   );
 }
